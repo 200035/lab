@@ -1,3 +1,49 @@
+Week-12
+Aim: Install Django and setup a virtual environment. 
+Installing Django involves a few steps by using the command line. Here's a step-by-step guide with explanations. Create a folder as Week12
+1. Install Python (if not already installed)
+Check if Python is installed:
+Week12>python --version
+Explanation: This command checks the version of Python installed on your system. Django requires Python 3.6 or later.
+
+2. Install pip (Python package manager)
+Check if pip is installed:
+Week12> pip --version
+Explanation: This checks if pip, the Python package installer, is available. You need it to install Django and other Python packages.
+
+3. (Optional but Recommended) Create a Virtual Environment
+Create a virtual environment:
+Week12> python -m venv MyCMR
+Explanation: This creates a virtual environment named MyCMR. Virtual environments keep your project dependencies isolated from your system Python packages.
+
+Activate the virtual environment:
+Week12> MyCMR\Scripts\activate
+Explanation: Activating the virtual environment means your terminal will now use the packages and Python version from this environment.
+
+4. Install Django
+Use pip to install Django:
+(MyCMR) D:\Week-12>pip install django
+Explanation: This command downloads and installs the latest version of Django from the Python Package Index (PyPI) into your current environment.
+
+5. Verify Django Installation
+Check Django version:
+(MyCMR) D:\Week-12>django-admin --version
+Explanation: This command verifies Django was installed correctly by showing the installed version.
+6. Start a Django Project (Optional)
+Create a new project: 
+(MyCMR) D:\Samp-12>django-admin startproject CMRproject
+Explanation:
+This creates a new Django project named MyCMR with the necessary folder structure and files.
+
+Step 7: Run the Development Server
+Navigate into your project folder:
+(MyCMR) D:\Samp-12>cd CMRproject
+
+Step 8:  (MyCMR) D:\Samp-12\CMRproject>python manage.py runserver
+Go to your browser and open http://127.0.0.1:8000/. You should see the Django welcome page!
+
+
+
 Week-13
 13. Design Web Application with different menu items using Django.
 Run the following commands in the command prompt
