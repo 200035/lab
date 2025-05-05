@@ -1,3 +1,35 @@
+Week-13
+13. Design Web Application with different menu items using Django.
+Run the following commands in the command prompt
+In menuitems/urls.py file, add the include and path
+In myapp --> create the templates folder and add .html files
+In myapp --> create urls.py file set the paths for different menu items
+#In command Prompt run the command python manage.py runserver
+In Terminal
+D:\ YamunaFSD\Week-13>pip install Django
+D:\ YamunaFSD\Week-13>python -m django --version
+D:\ YamunaFSD\Week-13>pip install Django
+D:\ YamunaFSD\Week-13>python -m django startproject menuitems
+D:\YamunaFSD\Week-13>cd menuitems
+D:\ YamunaFSD\Week-13\menuitems>python manage.py startapp myapp
+Now the folder structure is…
+|--Menuitems
+     |--Menuitems
+     |--Myapp
+     |--Manage.py
+To Run the project: 
+D:\YamunaFSD\Week-13\menuitems>python manage.py runserver
+
+Files in Record & Observation
+1). menuitems/settings.py
+2). menuitems/urls.py
+3). myapp/templates/home.html
+     create templates folder in my app, and create a file named home.html
+4). myapp/urls.py
+    In myapp --> create urls.py file set the paths for different menu items
+5). myapp/views.py
+
+
 Week-14
 Aim: Fetch user details from server using REST API and show in profile menu using Django
 
